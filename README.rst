@@ -32,7 +32,7 @@ for converting Dewey Decimal Classification (DDC) records.
 suggestions for generalizations and improvements are welcome!
 
 See `mapping schema for MARC21 Classification <#mapping-schema-for-marc21-classification>`_
-and `for MARC21 Authority <#mapping-schema-for-marc21-authority)>`_ below.
+and `mapping schema for MARC21 Authority <#mapping-schema-for-marc21-authority>`_ below.
 
 Installation
 ============
@@ -67,7 +67,11 @@ Usage
     mc2skos infile.xml outfile.ttl      # from file to file
     mc2skos infile.xml > outfile.ttl    # from file to standard output
 
-Run ``mc2skos --help`` or ``mc2skos -h`` for options.
+Default output format is RDF Turtle (``ttl``). Format ``jskos`` and ``ndjson`` serialize as 
+JSON-LD in `JSKOS <https://gbv.github.io/jskos/jskos.html#json-ld-context>`_, the latter with 
+one record per line. To include alternative labels, notes, and component information, add option
+``--altlabels``, ``--notes``, and ``--components`` respectively. Run ``mc2skos --help`` or
+``mc2skos -h`` for additional options.
 
 URIs
 ====
@@ -118,7 +122,7 @@ Mapping schema for MARC21 Classification
 
 Only a small part of the MARC21 Classification data model is converted, and the
 conversion follows a rather pragmatic approach, exemplified by the mapping of
-the 7XX fields to skos:altLabel.
+the 7XX fields to ``skos:altLabel``.
 
 ==========================================================  =====================================
 MARC21XML                                                    RDF
@@ -150,7 +154,7 @@ Synthesized number components
 -----------------------------
 
 Components of synthesized numbers explicitly described in 765 fields are
-expressed using the `mads:componentList` property, and to preserve the order of the
+expressed using the ``mads:componentList`` property, and to preserve the order of the
 components, we use RDF lists. Example:
 
 .. code-block:: turtle
@@ -279,7 +283,7 @@ Notes:
 * Mappings/relationships are generated for 7XX headings if the fields contain a ``$0``
   subfield containing either the control number or the URI of the related record.
   If ``$0`` contains a control number, an URI pattern for the vocabulary
-  (found in indicator 2 or ``$2``) must be defined in mc2skos.record.CONFIG.
+  (found in indicator 2 or ``$2``) must be defined in ``mc2skos.record.CONFIG``.
   If ``$4`` contains an URI, that URI is used as the relationship type.
   Otherwise, if ``$4`` contains one of the ISO 25964 relations, the corresponding
   SKOS relation is used. Otherwise, the default value ``skos:closeMatch`` is used.

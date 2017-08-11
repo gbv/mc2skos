@@ -214,7 +214,7 @@ def main():
     parser.add_argument('--altlabels', '--indexterms', dest='altlabels', action='store_true',
                         help='Include altlabels (from 7XX or 4XX).')
     parser.add_argument('--notes', dest='notes', action='store_true',
-                        help='Include note fields.')
+                        help='Include note fields (from 6XX, 253, 353).')
     parser.add_argument('--components', dest='components', action='store_true',
                         help='Include component information from 765.')
     parser.add_argument('--skip-classification', dest='skip_classification', action='store_true',
