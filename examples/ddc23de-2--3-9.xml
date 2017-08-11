@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<marc:collection xmlns:marc="http://www.loc.gov/MARC21/slim">
+	<marc:record>
+		<marc:leader>00000nw  a2200000n  4500</marc:leader>
+		<marc:controlfield tag="001">2893fecf-28e3-3263-8cab-16b2317dd859</marc:controlfield>
+		<marc:controlfield tag="003">DE-101</marc:controlfield>
+		<marc:controlfield tag="005">20140428161004.6</marc:controlfield>
+		<marc:controlfield tag="008">000202bcaabaaa</marc:controlfield>
+		<marc:datafield tag="035" ind2=" " ind1=" ">
+			<marc:subfield code="a">ocd00124123</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="040" ind2=" " ind1=" ">
+			<marc:subfield code="a">OCoLC-D</marc:subfield>
+			<marc:subfield code="b">ger</marc:subfield>
+			<marc:subfield code="c">DE-101</marc:subfield>
+			<marc:subfield code="d">DE-101</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="084" ind2=" " ind1="0">
+			<marc:subfield code="a">ddc</marc:subfield>
+			<marc:subfield code="c">23de</marc:subfield>
+			<marc:subfield code="e">ger</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="153" ind2=" " ind1=" ">
+			<marc:subfield code="z">2</marc:subfield>
+			<marc:subfield code="a">3</marc:subfield>
+			<marc:subfield code="c">9</marc:subfield>
+			<marc:subfield code="z">2</marc:subfield>
+			<marc:subfield code="e">0</marc:subfield>
+			<marc:subfield code="j">Einzelne Kontinente, Länder, Ortschaften; außerirdische Welten</marc:subfield>
+			<marc:subfield code="9">ess=tcn</marc:subfield>
+			<marc:subfield code="9">ess=eh</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="680" ind2=" " ind1="1">
+			<marc:subfield code="i">Hier auch:</marc:subfield>
+			<marc:subfield code="t">Einzelfälle eines Themas</marc:subfield>
+			<marc:subfield code="9">ess=nch</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="694" ind2=" " ind1=" ">
+			<marc:subfield code="i">Ein Gebiet wird bei dessen Notation für die Gegenwart klassifiziert, auch wenn es zur betreffenden Zeit eine andere Zugehörigkeit hatte, z.B.</marc:subfield>
+			<marc:subfield code="t">Arizona unter mexikanischer Souveränität</marc:subfield>
+			<marc:subfield code="z">2</marc:subfield>
+			<marc:subfield code="e">791</marc:subfield>
+			<marc:subfield code="i">(nicht</marc:subfield>
+			<marc:subfield code="z">2</marc:subfield>
+			<marc:subfield code="n">72</marc:subfield>
+			<marc:subfield code="i">)</marc:subfield>
+			<marc:subfield code="9">ess=nml</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="253" ind2=" " ind1="2">
+			<marc:subfield code="i">Klassifiziere</marc:subfield>
+			<marc:subfield code="t">nicht auf Kontinent, Land, Ortschaft begrenzte Gebiete, Regionen, Orte</marc:subfield>
+			<marc:subfield code="i">in</marc:subfield>
+			<marc:subfield code="z">2</marc:subfield>
+			<marc:subfield code="a">1</marc:subfield>
+			<marc:subfield code="9">ess=nce</marc:subfield>
+		</marc:datafield>
+	 <marc:datafield tag="253" ind2=" " ind1="2">
+			<marc:subfield code="i">Klassifiziere</marc:subfield>
+			<marc:subfield code="t">Teile von auf Länder oder Ortschaften begrenzten Ozeanen und Nichtbinnenmeeren</marc:subfield>
+			<marc:subfield code="i">in</marc:subfield>
+			<marc:subfield code="z">2</marc:subfield>
+			<marc:subfield code="a">163</marc:subfield>
+			<marc:subfield code="c">168</marc:subfield>
+			<marc:subfield code="9">ess=nce</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="253" ind2=" " ind1="2">
+			<marc:subfield code="i">Klassifiziere</marc:subfield>
+			<marc:subfield code="t">Biografien ungeachtet des Gebiets, der Region, des Orts</marc:subfield>
+			<marc:subfield code="i">in</marc:subfield>
+			<marc:subfield code="z">2</marc:subfield>
+			<marc:subfield code="a">2</marc:subfield>
+			<marc:subfield code="9">ess=nce</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="253" ind2=" " ind1="2">
+			<marc:subfield code="i">Klassifiziere umfassende Werke in</marc:subfield>
+			<marc:subfield code="a">001</marc:subfield>
+			<marc:subfield code="c">999</marc:subfield>
+			<marc:subfield code="i">, ohne Notationen aus Hilfstafel 2 anzuhängen</marc:subfield>
+			<marc:subfield code="9">ess=nce</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="684" ind2=" " ind1="2">
+			<marc:subfield code="i">Siehe Praxishilfe bei</marc:subfield>
+			<marc:subfield code="z">2</marc:subfield>
+			<marc:subfield code="a">162</marc:subfield>
+			<marc:subfield code="9">ess=nsm</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="684" ind2=" " ind1="2">
+			<marc:subfield code="i">Siehe Praxishilfe bei</marc:subfield>
+			<marc:subfield code="z">2</marc:subfield>
+			<marc:subfield code="a">4</marc:subfield>
+			<marc:subfield code="c">9</marc:subfield>
+			<marc:subfield code="i">vs.</marc:subfield>
+			<marc:subfield code="z">2</marc:subfield>
+			<marc:subfield code="a">3</marc:subfield>
+			<marc:subfield code="9">ess=nsm</marc:subfield>
+		</marc:datafield>
+		<marc:datafield tag="683" ind2=" " ind1="2">
+			<marc:subfield code="i">(Option: Klassifiziere durch Kontinent, Land, Ortschaft begrenzte Gebiete und Regionen in</marc:subfield>
+			<marc:subfield code="z">2</marc:subfield>
+			<marc:subfield code="a">1</marc:subfield>
+			<marc:subfield code="i">)</marc:subfield>
+			<marc:subfield code="9">ess=nop</marc:subfield>
+		</marc:datafield>
+  </marc:record>
+</marc:collection>

@@ -1,0 +1,22 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix mads: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://data.ub.uio.no/webdewey-terms#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dewey.info/class/2--3-9/e23/> 
+    a skos:Concept, <http://dewey.info/type/NumberSpan>, <http://dewey.info/type/TableEntry> ;
+    wd:classHere "Einzelfälle eines themas"@de ;
+    dcterms:created "2000-02-02"^^xsd:date ;
+    dcterms:identifier "2893fecf-28e3-3263-8cab-16b2317dd859" ;
+    dcterms:modified "2014-04-28"^^xsd:date ;
+    skos:broader <http://dewey.info/class/2--0/e23/> ;
+    skos:inScheme <http://dewey.info/scheme/edition/e23/>,
+        <http://dewey.info/table/2/e23/> ;
+    skos:notation "T2--3-9" ;
+    skos:prefLabel "Einzelne Kontinente, Länder, Ortschaften; außerirdische Welten"@de .
+
