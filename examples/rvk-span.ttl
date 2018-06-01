@@ -1,0 +1,20 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix mads: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://data.ub.uio.no/webdewey-terms#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://rvk.uni-regensburg.de/nt/MC_7700-MC_7773> a skos:Concept ;
+    dcterms:created "2012-07-05"^^xsd:date ;
+    dcterms:identifier "122422:" ;
+    dcterms:modified "2018-03-16"^^xsd:date ;
+    skos:broader <http://rvk.uni-regensburg.de/nt/MC_7000-MC_7780> ;
+    skos:closeMatch <http://d-nb.info/gnd/4001887-8> ;
+    skos:inScheme <http://rvk.uni-regensburg.de/nt/> ;
+    skos:notation "MC 7700 - MC 7773" ;
+    skos:prefLabel "Anarchismus"@de .
+
