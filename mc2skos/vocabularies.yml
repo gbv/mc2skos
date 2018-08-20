@@ -15,12 +15,18 @@ subject_schemes:
         concept: http://id.loc.gov/authorities/subjects/{control_number}
         scheme: http://id.loc.gov/authorities/subjects
     d: http://lod.nal.usda.gov/nalt/{control_number[4:]:d}
-    usvd:
-        concept: http://data.ub.uio.no/usvd/c{control_number[4:]}
-        scheme: http://data.ub.uio.no/usvd/
+    ddcri:
+        scheme: http://id.loc.gov/vocabulary/subjectSchemes/ddcri
+    gettyulan: # used in GND for mapping (correct form is 'ulan')
+        concept: http://vocab.getty.edu/ulan/{control_number}
+    gnd:
+        concept: http://d-nb.info/gnd/{control_number}
+        scheme: http://d-nb.info/gnd/
     humord:
         concept: http://data.ub.uio.no/humord/c{control_number[4:]}
         scheme: http://data.ub.uio.no/humord/
+    isni:
+        concept: http://isni.org/{control_number}
     noubojur:
         concept: http://data.ub.uio.no/lskjema/c{control_number[4:]:06d}
         scheme: http://data.ub.uio.no/lskjema/
@@ -30,25 +36,24 @@ subject_schemes:
     noubomr:
         concept: http://data.ub.uio.no/mrtermer/c{control_number[3:]}
         scheme: http://data.ub.uio.no/mrtermer/
-    gnd:
-        concept: http://d-nb.info/gnd/{control_number}
-        scheme: http://d-nb.info/gnd/
+    orcid:
+        concept: https://orcid.org/{control_number}
     lccn:
         concept: http://id.loc.gov/authorities/names/{control_number}
         scheme: http://id.loc.gov/authorities/names/
     lcgft:
         concept: http://id.loc.gov/authorities/genreForms/{control_number}
         scheme: http://id.loc.gov/authorities/genreForms
-    ddcri:
-        scheme: http://id.loc.gov/vocabulary/subjectSchemes/ddcri
+    lcsh: # same as 'a' but for mappings
+        concept: http://id.loc.gov/authorities/subjects/{control_number}
+        scheme: http://id.loc.gov/authorities/subjects
     TESA:
         scheme: http://lod.nal.usda.gov/nalt/
+    usvd:
+        concept: http://data.ub.uio.no/usvd/c{control_number[4:]}
+        scheme: http://data.ub.uio.no/usvd/
     viaf:
         concept: http://viaf.org/viaf/{control_number}
     wikidata:
         concept: http://www.wikidata.org/entity/{control_number}
-    isni:
-        concept: http://isni.org/{control_number}
         whitespace: ''  # Remove whitespace in URIs
-    orcid:
-        concept: https://orcid.org/{control_number}
