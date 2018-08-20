@@ -687,7 +687,7 @@ class AuthorityRecord(Record):
 
                     if is_uri(local_id):
                         self.relations.append({
-                            'uri': uri,
+                            'uri': local_id,
                             'relation': relation,
                         })
                     else:
